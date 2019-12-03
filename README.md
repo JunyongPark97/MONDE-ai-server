@@ -1,6 +1,10 @@
 # MONDE-MUNCHKIN
 MONDEIQUE AI server
 
+## How to install
+```
+pip install -r requirements.txt
+```
 ## API
 ### OD API (Object-Detection API)
 - input image 에 대한 frozen_inference_graph.pb 를 불러와 ltrb 결과를 뽑아내 Response 로 반환
